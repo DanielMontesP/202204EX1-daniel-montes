@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "husky": "^7.0.4",
+    "sass": "^1.50.0"
+  },
+  "scripts": {
+    "compile-sass": "sass sass:css",
+    "compile-sass-dev": "sass sass:css --watch"
+  }
+}
