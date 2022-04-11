@@ -5,6 +5,10 @@
   },
   "scripts": {
     "compile-sass": "sass sass:css",
-    "compile-sass-dev": "sass sass:css --watch"
+    "compile-sass-dev": "sass sass:css --watch",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^7.0.0"
   }
 }
